@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/*
+=======================
+Variable
+=======================
+*/
+:root{
+
+    /* font family */
+    --ff-firstFontFamily: "Roboto", sans-serif; 
+    --ff-secondFontFamily: "Open Sans", sans-serif;
+}
+
+/* style start  */
+*,
+::after,
+::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--ff-secondFontFamily) ;
+    background: #f1eeee ;
+    color: #b1a8a800;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-family: var(--ff-firstFontFamily);
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.25rem;
+}
+h4{
+    font-size: 0.875rem;
+}
+
+/* sidebar */
+.sidebar-toggle{
+    position: fixed;
+    top: 2rem;
+    right: 3rem;
+    font-size: 2rem;
+    background: transparent;
+    color: #617d98;
+}
+
+
